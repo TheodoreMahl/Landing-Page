@@ -65,7 +65,7 @@ ul {
     padding-left: 100px;
     max-width: 400px;
 }
-button {
+.button-one {
     background-color: #3882f6;
     border-radius: 8px;
     border: #3882f6;
@@ -92,16 +92,17 @@ img {
     text-align: center;
 }
 .title {
-  font-size: 36px;
-  font-weight: bolder;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: -25px;
+    margin-top: 25px;
+    color: #1f2937;
 }
 .container {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin: 50px;
 }
 .container img {
     width: 150px;
@@ -114,4 +115,69 @@ img {
 }
 
 
-.body
+.container-two {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 675px;
+    align-self: center;
+    font-family: 'Arial Narrow';
+}
+.source {
+    font-weight: bold;
+    width: 300px;
+    padding-left: 450px;
+    font-size: 22px;
+}
+
+
+.body-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con-three {
+    background-color: #3882f6;
+    width: 700px;
+    height: 350;
+    border-radius: 8px;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call, .sign {
+    color: white;
+}
+
+.call {
+    font-weight: bold;
+}
+
+.button-two {
+    border: 2px solid white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 2px 25px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
